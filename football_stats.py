@@ -39,3 +39,4 @@ print("|{} |{}       |{}  |{}  |".format("ranking","Player", "Position", "TD"))
 for ranking, player in enumerate(top20, 1):
     if ranking <= 20:
         print("|{}     |  {}|     {}| {}|".format(ranking, player[0], player[1], player[2], player[3]))
+        
